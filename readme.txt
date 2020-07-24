@@ -6,6 +6,9 @@
 * C++ version : c++14
 
 [주의사항]
-* jobSize : 계산할 값의 크기
-* numThreads : 사용할 스레드 개수
-* useThread : 스레드 사용 여부 (0 = 미사용, 1 = 사용)
+* env_info.json 파일은 실행파일과 동일한 위치에 있어야 합니다.
+
+[파라미터]
+* jobSize 		: 계산할 값의 크기
+* numThreads 	: 사용할 스레드 개수
+* useThread 	: 스레드 사용 여부 (0 = 미사용, 1 = 사용)
